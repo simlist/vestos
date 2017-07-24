@@ -1,9 +1,9 @@
 from pyluach import dates
 
-class Period(object):
+class Reiya(object):
     
     """
-    A Period object represents a r'iya.
+    A Reiya object represents a reiya.
 
     Parameters
     ----------
