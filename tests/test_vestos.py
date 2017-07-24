@@ -1,0 +1,12 @@
+import pytest
+
+from pyluach.dates import HebrewDate
+from vestos import vestos
+
+class TestPeriod(object):
+
+    def test_invalid_onah(self):
+        today = HebrewDate.today()
+        for s in ['', 'wrong', None, 5]:
+            with pytest.raises(ValueError):
+                vestos.Period(today, s)
