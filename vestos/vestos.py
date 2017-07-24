@@ -24,6 +24,6 @@ class Period(object):
         if onah in ['day', 'night']:
             self.onah = onah
         else:
-            raise ValueError("Onah has to have the value of either 'day' or"
+            raise ValueError("Onah has to have the value of either 'day' or "
                              "'night'")
         self.haflaga = haflaga
